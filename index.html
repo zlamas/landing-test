@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thermomix</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__top mobile_only">
+      <img class="icon icon_35 circled popup-open" src="img/phone.svg" alt="">
+      <a class="sitenav__logo" href="index.html">
+        <img src="img/logo.svg" alt="">
+      </a>
+      <label class="icon icon_35 circled" for="mobile-menu-toggle">
+        <img class="icon__img" src="img/menu.svg" alt="">
+      </label>
+    </div>
+    <input class="header__mobile-toggle" type="checkbox" id="mobile-menu-toggle">
+    <div class="header__overlay">
+      <div class="header__wrapper sitenav">
+        <div class="header__top">
+          <img class="icon icon_35 circled popup-open mobile_only" src="img/phone.svg" alt="">
+          <a class="sitenav__logo" href="index.html">
+            <img src="img/logo.svg" alt="">
+          </a>
+          <label for="mobile-menu-toggle">
+            <img class="icon icon_35 circled mobile_only" src="img/close.svg" alt="">
+          </label>
+        </div>
+        <nav class="sitenav__links">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="link" href="#link1">График работы</a></li>
+            <li class="sitenav__item"><a class="link" href="#link2">Отзывы</a></li>
+            <li class="sitenav__item"><a class="link" href="#link3">Схема работы</a></li>
+            <li class="sitenav__item"><a class="link" href="#link4">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="sitenav__phone">
+          <div>
+            <div>+7 (778) 021 11 73</div>
+            <div class="link_accent popup-open mobile_hidden">Заказать звонок</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section hero">
+    <div class="hero__section_1">
+      <h1 class="section__title hero__title">Сервисный центр <span class="highlight">THERMOMIX</span> в Алматы</h1>
+      <div class="section__subtitle">
+        <img class="icon mobile_hidden" src="img/subtitle_icon.svg" alt="">
+        <span>Ремонт и обслуживание техники от мастеров <b>с 10-летним опытом</b></span>
+      </div>
+      <div class="hero__action">
+        <button class="button popup-open">Оставить заявку</button>
+        <span class="hero__action-text">Менеджер<br>свяжется с вами<br>через 3 минуты</span>
+      </div>
+    </div>
+    <img class="hero__image" src="img/hero_image.webp" alt="">
+    <div class="hero__benefits mobile-flex-col">
+      <div class="hero__benefit">
+        <img class="icon icon_60" src="img/hero-icon-1.webp" alt="">
+        <span>Ремонт&nbsp;за <b>1&nbsp;день</b></span>
+      </div>
+      <div class="hero__benefit">
+        <img class="icon icon_60" src="img/hero-icon-2.webp" alt="">
+        <span>Бесплатная диагностика</span>
+      </div>
+      <div class="hero__benefit">
+        <img class="icon icon_60" src="img/hero-icon-3.webp" alt="">
+        <span>Оригинальные запчасти</span>
+      </div>
+      <div class="hero__benefit">
+        <img class="icon icon_60" src="img/hero-icon-4.webp" alt="">
+        <span>Мастера&nbsp;с опытом&nbsp;7+&nbsp;лет</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+    <section class="section section1">
+      <h2 class="section__title">Ремонтируем <span class="highlight">все виды техники</span> Thermomix</h2>
+      <ol class="equipment">
+        <li class="equipment__item">
+          <div class="icon icon_30 circled equipment__number">1</div>
+          <span>Thermomix TM 6</span>
+        </li>
+        <li class="equipment__item">
+          <div class="icon icon_30 circled equipment__number">2</div>
+          <span>Thermomix TM 5</span>
+        </li>
+        <li class="equipment__item">
+          <div class="icon icon_30 circled equipment__number">3</div>
+          <span>Thermomix TM 31</span>
+        </li>
+        <li class="equipment__item">
+          <div class="icon icon_30 circled equipment__number">4</div>
+          <span>Thermomix Friend</span>
+        </li>
+        <li class="equipment__item">
+          <div class="icon icon_30 circled equipment__number">5</div>
+          <span>Thermomix TM 21</span>
+        </li>
+        <li class="equipment__item mobile_hidden">
+          <div class="icon icon_30 circled equipment__number">6</div>
+          <span>Thermomix TM 6</span>
+        </li>
+        <li class="equipment__item mobile_hidden">
+          <div class="icon icon_30 circled equipment__number">7</div>
+          <span>Thermomix VKM 5</span>
+        </li>
+        <li class="equipment__item mobile_hidden">
+          <div class="icon icon_30 circled equipment__number">8</div>
+          <span>Thermomix TM 3000</span>
+        </li>
+        <li class="equipment__item mobile_hidden">
+          <div class="icon icon_30 circled equipment__number">9</div>
+          <span>Thermomix VM 2200</span>
+        </li>
+        <li class="equipment__item mobile_hidden">
+          <div class="icon icon_30 circled equipment__number">10</div>
+          <span>Thermomix VM 2000</span>
+        </li>
+      </ol>
+      <div class="equipment__show link_dashed mobile_only">Показать еще</div>
+      <div class="action1 mobile-flex-col">
+        <img class="action1__img mobile_hidden" src="img/otvertka.webp" alt="">
+        <span class="action1__text1">Оставьте заявку на бесплатную диагностику вашей техники Thermomix</span>
+        <button class="button popup-open">Оставить заявку</button>
+        <span class="action1__text2">Менеджер свяжется с&nbsp;вами через 3 минуты</span>
+      </div>
+    </section>
+
+    <section class="section section2">
+      <h2 class="section__title">Мы дорожим<br>вашим временем!</h2>
+      <div class="section__row section2__row1">
+        <img src="img/couriers.webp" alt="">
+        <span>5 курьеров готовы&nbsp;к выезду<br>прямо сейчас</span>
+      </div>
+      <div class="action2 mobile-flex-col">
+        <button class="button button_black button_narrow popup-open">Вызвать курьера</button>
+        <span>Менеджер свяжется<br>с вами через 3 минуты</span>
+      </div>
+      <div>Услуга предоставляется бесплатно</div>
+      <div class="section2__img"></div>
+    </section>
+
+    <section class="section section3" id="link3">
+      <h2 class="section__title"><span class="highlight">схема</span> работы</h2>
+      <div class="scheme mobile-flex-col">
+        <div class="scheme__item">
+          <img class="scheme__img" src="img/scheme-1.webp" alt="">
+          <div class="scheme__title">Консультация</div>
+          <div>Наш менеджер ответит на все ваши вопросы и примет заявку</div>
+        </div>
+        <div class="scheme__item">
+          <img class="scheme__img" src="img/scheme-2.webp" alt="">
+          <div class="scheme__title">Диагностика</div>
+          <div>Осуществим диагностику за свой счёт, даже если вы откажетесь от ремонта</div>
+        </div>
+        <div class="scheme__item">
+          <img class="scheme__img" src="img/scheme-3.webp" alt="">
+          <div class="scheme__title">Согласование</div>
+          <div>Персональный менеджер согласует с вами сроки и стоимость ремонта</div>
+        </div>
+        <div class="scheme__item">
+          <img class="scheme__img" src="img/scheme-4.webp" alt="">
+          <div class="scheme__title">Выдача</div>
+          <div>Бесплатно доставим устройство к вам домой или вы можете забрать его сами</div>
+        </div>
+        <div class="scheme__item">
+          <img class="scheme__img" src="img/scheme-5.webp" alt="">
+          <div class="scheme__title">Оплата</div>
+          <div>Оплата производиться после ремонта и проверки устройства</div>
+        </div>
+      </div>
+      <div class="action3 mobile-flex-col">
+        <button class="button popup-open">Записаться на консультацию</button>
+        <span class="action3__text">Менеджер свяжется с&nbsp;вами через 3 минуты</span>
+      </div>
+    </section>
+
+    <section class="section section4">
+      <h2 class="section__title">наши преимущества</h2>
+      <div class="benefits mobile-flex-col">
+        <div class="benefits__item">
+          <img class="benefits__img" src="img/benefits-1.webp" alt="">
+          <div class="benefits__text">9 из 10 продуктов мы чиним за <b>1 день</b></div>
+        </div>
+        <div class="benefits__item">
+          <img class="benefits__img" src="img/benefits-2.webp" alt="">
+          <div class="benefits__text"><b>Диагностика 0 тг</b>, даже в случае отказа от ремонта</div>
+        </div>
+        <div class="benefits__item">
+          <img class="benefits__img" src="img/benefits-3.webp" alt="">
+          <div class="benefits__text"><b>3 года гарантии</b> на ремонт</div>
+        </div>
+        <div class="benefits__item">
+          <img class="benefits__img" src="img/benefits-4.webp" alt="">
+          <div class="benefits__text">После ремонта проводим <b>контроль качества</b> по 26 пунктам</div>
+        </div>
+        <div class="benefits__item">
+          <img class="benefits__img" src="img/benefits-5.webp" alt="">
+          <div class="benefits__text">Обслуживание на уровне <b>официального сервиса</b></div>
+        </div>
+        <div class="benefits__item">
+          <img class="benefits__img" src="img/benefits-6.webp" alt="">
+          <div class="benefits__text">Использование только <b>сертифицированных</b> комплектующих</div>
+        </div>
+      </div>
+      <div class="action4 mobile-flex-col">
+        <button class="button popup-open">Оставить заявку</button>
+        <span class="action4__text">Менеджер свяжется с&nbsp;вами через 3 минуты</span>
+      </div>
+    </section>
+
+    <section class="section section5">
+      <h2 class="section__title">истории последних <span class="highlight">обращений</span></h2>
+      <div class="story">
+        <img class="story__img" src="img/Black-TM6-Sparkle.webp" alt="">
+        <div class="story__details">
+          <h2 class="story__title">Thermomix TM 6</h2>
+          <div class="story__row">
+            <b>Проблема:</b>
+            <div>Утечка хладогента</div>
+          </div>
+          <div class="story__row">
+            <b>Решение:</b>
+            <div class="story__solutions mobile-flex-col">
+              <span class="story__solution">Устранение утечки</span>
+              <span class="story__solution">Гермитизация системы</span>
+            </div>
+          </div>
+          <div class="story__work-details mobile-flex-col">
+            <span class="story__work story__work_time">
+              <b>Срок гарантии</b> 1 месяц
+            </span>
+            <span class="story__work story__work_cost">
+              <b>Стоимость работы:</b> 20 000 тг.
+            </span>
+            <span class="story__work story__work_master">
+              <b>Мастер:</b> Алибек Алибеков
+            </span>
+          </div>
+        </div>
+        <div class="review review_small">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review3.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Эрке</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Никогда не думала, что ремонт Thermomix может пройти так гладко! Очень довольна результатом и обслуживанием. Работают настоящие профессионалы, спасибо!</div>
+        </div>
+        <button class="button">Следующая история</button>
+      </div>
+    </section>
+
+    <section class="section section6">
+      <h2 class="section__title">Оставьте заявку в&nbsp;течение<br>1 часа и получите <span class="highlight">скидку 15%</span></h2>
+      <div class="discount">
+        <div class="countdown">
+          <div>До конца акции осталось:</div>
+          <div class="countdown__clock">
+            <span class="countdown__digit">0</span>
+            <span class="countdown__digit">0</span>
+            <span class="countdown__separator">:</span>
+            <span class="countdown__digit">5</span>
+            <span class="countdown__digit">9</span>
+            <span class="countdown__separator">:</span>
+            <span class="countdown__digit">0</span>
+            <span class="countdown__digit">3</span>
+          </div>
+        </div>
+        <div class="action2 mobile-flex-col">
+          <button class="button button_black button_narrow popup-open">Получить скидку</button>
+          <span>Скидка предоставляется при<br>первом обращении в сервис</span>
+      </div>
+        <img class="discount__img" src="img/action-2.webp" alt="">
+      </div>
+    </section>
+
+    <section class="section section7" id="link2">
+      <h2 class="section__title">За последний месяц нам доверились более<br><span class="highlight">200 клиентов</span></h2>
+      <div class="slider" data-min-width="280">
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review1.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Зауреш</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Отремонтировали мой Thermomix за день. Цена разумная, качество отличное. Рада, что не пришлось расставаться с любимой техникой надолго.</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review2.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Алибек</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Квалифицированные мастера и отличное обслуживание. Единственный минус - пришлось ждать запчасть пару дней. Но в целом, рекомендую этот сервисный центр.</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review3.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Эрке</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Отличный сервис! Мой Thermomix перестал нагреваться, но мастера быстро нашли и устранили проблему. Теперь работает как новый.</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review4.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Алия</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Быстрая диагностика и ремонт. Вежливый персонал. Дали полезные советы по уходу за техникой. Однозначно рекомендую этот сервисный центр всем владельцам Thermomix.</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review5.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Нурлан</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Благодарна сотрудникам центра за профессионализм. Только курьер приехал на 15 минут позже, чем ожидалось, но ремонт занял 1 день как и обещали, результат того стоил. Мой верный помощник снова в строю!</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review6.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Бауыржан</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Сломался дисплей на моем Thermomix, думала, придется покупать новый. Но в сервисном центре его отремонтировали быстро и недорого. Очень довольна!</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review7.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Жанар</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Быстро, качественно и с гарантией. Заменили мотор на моем Thermomix, теперь он работает тише прежнего. Спасибо!</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+        <div class="review slide">
+          <div class="review__profile">
+            <div class="review__avatar">
+              <img src="img/review8.webp" alt="">
+            </div>
+            <div class="review__details">
+              <div class="review__name">Арман</div>
+              <div class="review__date">16.05.2024</div>
+              <div class="review__rating">★★★★★</div>
+            </div>
+          </div>
+          <div class="review__content">Обратилась по поводу странного запаха при работе. Мастера тщательно проверили устройство и устранили проблему. Спасибо!</div>
+          <div class="review__master">Мастер: <b>Алибек Алибеков</b></div>
+        </div>
+      </div>
+      <div class="slider__controls">
+        <button class="circled button_arrow button_left"></button>
+        <div class="slider__dots"></div>
+        <button class="circled button_arrow button_right"></button>
+      </div>
+    </section>
+
+    <section class="section section8">
+      <h2 class="section__title"><span class="highlight">частые вопросы</span><br>наших клиентов</h2>
+      <details class="details">
+        <summary class="details__title">
+          <span>Какие наиболее частые проблемы встречаются у Thermomix?</span>
+        </summary>
+        <div class="details__content">Частые проблемы включают: неисправности дисплея, проблемы с нагревом, ошибки в взвешивании, неполадки с двигателем и повреждения чаши. Наши специалисты имеют опыт в решении всех этих проблем.</div>
+      </details>
+      <details class="details">
+        <summary class="details__title">
+          <span>Сколько стоит ремонт Thermomix?</span>
+        </summary>
+        <div class="details__content">Стоимость ремонта зависит от конкретной проблемы и необходимых запчастей. Мы предоставляем бесплатную диагностику и точную оценку стоимости ремонта перед началом работ. Наши цены конкурентоспособны и прозрачны.</div>
+      </details>
+      <details class="details">
+        <summary class="details__title">
+          <span>Что делать, если мой Thermomix на гарантии?</span>
+        </summary>
+        <div class="details__content">Если ваш Thermomix находится на гарантии производителя, мы рекомендуем обратиться в официальный сервисный центр. Однако, если вы предпочитаете наши услуги, мы можем выполнить ремонт, но это может повлиять на гарантию производителя.</div>
+      </details>
+      <details class="details">
+        <summary class="details__title">
+          <span>Можете ли вы помочь с обновлением программного обеспечения Thermomix?</span>
+        </summary>
+        <div class="details__content">Да, мы можем помочь с обновлением программного обеспечения вашего Thermomix. Это важно для обеспечения правильной работы устройства и доступа к новейшим функциям.</div>
+      </details>
+      <details class="details">
+        <summary class="details__title">
+          <span>Используете ли вы оригинальные запчасти?</span>
+        </summary>
+        <div class="details__content">Да, мы используем только оригинальные запчасти, одобренные производителем Thermomix. Это гарантирует надежность ремонта и сохранение функциональности вашего устройства.</div>
+      </details>
+      <details class="details">
+        <summary class="details__title">
+          <span>Предоставляете ли вы гарантию на ремонт?</span>
+        </summary>
+        <div class="details__content">Да, мы предоставляем гарантию на все виды ремонта. Стандартная гарантия составляет 3 месяца на работу и замененные детали. На некоторые виды ремонта гарантия может быть расширена.</div>
+      </details>
+    </section>
+
+    <section class="section section9 mobile-flex-col">
+      <div class="section9__left">
+        <h2 class="section__title">Сервисный центр<br><span class="highlight">Thermomix</span> Алматы</h2>
+        <p>Представьте себе: вы готовитесь к важному ужину, а ваш верный помощник Thermomix вдруг начинает капризничать. Паника? Ни в коем случае!</p>
+        <p>Наш центр - это не просто мастерская по ремонту. Это настоящая клиника для вашего кухонного друга, где каждый винтик получит профессиональный уход. Мы не просто чиним технику, мы возвращаем в ваш дом кулинарную магию!</p>
+
+        <h3 class="h3">Наши услуги: от диагностики до реанимации</h3>
+        <p>Сервисный центр Thermomix предлагает полный спектр услуг:</p>
+        <ul class="list">
+          <li><b>Диагностика</b>: Мы найдем проблему быстрее, чем вы успеете прочитать инструкцию. В 95% случаев диагностика занимает не более 30 минут.</li>
+          <li><b>Ремонт</b>: От простой замены деталей до сложных технических операций. Наш рекорд - полная замена двигателя за 2 часа.</li>
+          <li><b>Профилактика</b>: Предупредим поломки, чтобы техника работала как часы. Регулярная профилактика снижает риск серьезных поломок на 78%.</li>
+          <li><b>Обновление программного обеспечения</b>: Держим вашу технику в курсе последних трендов. Ежемесячно мы устанавливаем около 200 обновлений.</li>
+          <li><b>Консультации</b>: Ответим на все вопросы, даже на те, которые вы боялись задать. Наша горячая линия работает 24/7 и обрабатывает более 100 звонков в день.</li>
+        </ul>
+
+        <h3 class="h3">Технические тонкости</h3>
+        <p>Представьте себе: вы готовитесь к важному ужину, а ваш верный помощник Thermomix вдруг начинает капризничать. Паника? Ни в коем случае!</p>
+        <p>Наш центр - это не просто мастерская по ремонту. Это настоящая клиника для вашего кухонного друга, где каждый винтик получит профессиональный уход. Мы не просто чиним технику, мы возвращаем в ваш дом кулинарную магию!</p>
+
+        <h3 class="h3">Сердце машины: мотор</h3>
+        <p>В основе устройств - мощный мотор, способный работать на разных скоростях. От нежного перемешивания до скоростного измельчения - все под силу этому маленькому гиганту. Но даже такой надежный механизм иногда нуждается в профилактике. Cервисный центр Термомикс Алматы проводит полную диагностику мотора, чтобы предотвратить возможные поломки.</p>
+
+        <h3 class="h3">Мозг операции: электроника</h3>
+        <p>Современные модели Thermomix оснащены сложной электронной начинкой. Процессор с частотой 1 ГГц, 16 ГБ памяти, Wi-Fi модуль - все это делает прибор настоящим смарт-устройством. Но электроника - дама капризная. Наши специалисты знают, как обращаться с этой сложной системой, обеспечивая бесперебойную работу кухонного помощника.</p>
+
+        <h3 class="h3">Рабочая лошадка: нож</h3>
+        <p>Нож - это настоящее произведение инженерного искусства. Он способен измельчать, взбивать, замешивать и даже готовить мороженое! Но со временем даже самый острый нож может затупиться. Мы предлагаем услуги по заточке и замене ножей. Наши тесты показывают, что после профессиональной заточки эффективность измельчения увеличивается на 25%.</p>
+
+        <div class="image-block mobile-flex-col">
+          <img src="img/block-1.webp" alt="">
+          <img src="img/block-2.webp" alt="">
+        </div>
+
+        <h3 class="h3">Профилактика: Лучше предупредить, чем лечить</h3>
+        <p>Знаете ли вы, что большинство поломок можно предотвратить?  Cервис центр Термомикс не устает повторять: профилактика - ключ к долгой и счастливой жизни кухонного помощника.</p>
+
+        <h4 class="h4">Ежедневный уход</h4>
+        <ol class="list list_ordered">
+          <li><b>Чистота - залог здоровья</b>: После каждого использования тщательно мойте все детали. Особое внимание уделяйте ножу и уплотнительному кольцу. Это занимает всего 5-7 минут, но продлевает срок службы прибора на годы.</li>
+          <li><b>Сушка - важный этап</b>: Не оставляйте прибор влажным. Тщательно просушивайте все элементы, особенно в местах соединений. Влага - главный враг электроники, 30% всех поломок связаны
+  именно с ней.</li>
+          <li><b>Хранение с умом</b>: Не храните устройства в закрытом состоянии. Дайте ему "подышать", это предотвратит появление неприятных запахов. Правильное хранение снижает риск появления плесени на 99%.</li>
+        </ol>
+
+        <h4 class="h4">Ежемесячный check-up</h4>
+        <ol class="list list_ordered">
+          <li><b>Проверка соединений</b>: Убедитесь, что все крепления и соединения в порядке. Если заметили ослабление - самое время обратиться к профессионалам. 15% всех поломок связаны именно с ослаблением креплений.</li>
+          <li><b>Осмотр кабеля</b>: Проверьте целостность электрического кабеля. Малейшие повреждения могут привести к серьезным проблемам. 8% всех вызовов связаны с проблемами кабеля.</li>
+          <li><b>Тест на шум</b>: Включите прибор на разных скоростях. Если слышите необычные звуки - это повод для беспокойства. 60% всех серьезных поломок начинаются с необычного шума.</li>
+        </ol>
+        <p>Ремонт техники Термомикс в нашем сервисном центре гарантирует восстановление функций вашего кухонного помощника, обеспечивая его бесперебойную работу и позволяя вам наслаждаться кулинарным творчеством без лишних хлопот.</p>
+
+        <h4 class="h4">Ежегодное обслуживание</h4>
+        <p>Раз в год рекомендуем проводить полную диагностику в нашем сервисном центре. Мы проверим все узлы, смажем механизмы и при необходимости заменим изношенные детали. Статистика показывает, что приборы, проходящие ежегодное обслуживание, служат на 5-7 лет дольше.</p>
+
+        <h3 class="h3">Экономика ремонта: Почему это выгодно?</h3>
+        <p>Многие задаются вопросом: а стоит ли ремонтировать устройство, или проще купить новое? Сервис центр Thermomix спешит развеять все сомнения и доказать, что ремонт - это не только разумно, но и выгодно!</p>
+
+        <h4 class="h4">Сравнение стоимости</h4>
+        <p>Новое устройство - удовольствие не из дешевых. Его цена может достигать 3500-4000 долларов США. В то же время, большинство ремонтов обходится в сумму, не превышающую 10-15% от стоимости нового прибора. Согласитесь, разница ощутимая! По нашей статистике, средняя стоимость услуги в 10 раз меньше стоимости нового устройства.</p>
+
+        <h4 class="h4">Экологический аспект</h4>
+        <p>Выбирая ремонт бытовой техники Thermomix вместо покупки нового устройства, вы вносите свой вклад в защиту окружающей среды. Меньше электронных отходов - чище наша планета! По данным экологов, один отремонтированный прибор предотвращает выброс около 20 кг CO2 в атмосферу, которые были бы произведены при изготовлении нового устройства.</p>
+
+        <h4 class="h4">Сохранение привычного</h4>
+        <p>Thermomix - это не просто техника, это член семьи. Вы привыкли к нему, знаете все особенности. Зачем отказываться от старого друга, если можно вернуть ему "здоровье"? Согласно нашему опросу, 87% клиентов отмечают, что после ремонта устройство работает так же хорошо, как и новый.</p>
+
+        <h4 class="h4">Продление срока службы</h4>
+        <p>Регулярное обслуживание и своевременный ремонт бытовой техники Термомикс продлевают жизнь технике. Некоторые наши клиенты пользуются своими приборами более 15 лет, и они в отличном состоянии! Статистика показывает, что при правильном уходе и срок службы увеличивается на 40-50%.</p>
+
+        <h4 class="h4">Инвестиция в будущее</h4>
+        <p>Потратив небольшую сумму на ремонт сейчас, вы экономите гораздо большие деньги в будущем. Это как регулярное техобслуживание автомобиля - предотвращаем серьезные поломки и сохраняем ваши средства. По нашим расчетам, регулярное обслуживание и своевременный ремонт позволяют сэкономить до 60% средств на покупку нового устройства в долгосрочной перспективе.</p>
+        <p>Cервисный центр Термомикс в Алматы не стоит на месте, постоянно развиваясь и внедряя инновационные методы диагностики и ремонта. Мы непрерывно совершенствуем наши услуги, инвестируя в обучение персонала и приобретение самого современного оборудования, чтобы предложить вам сервис высочайшего уровня, соответствующий мировым стандартам качества.</p>
+        <p>Не позволяйте мелким неисправностям превратиться в серьезные поломки, которые могут вывести из строя любимый кухонный прибор. Доверьте заботу о вашем Thermomix профессионалам нашего сервисного центра, где каждый специалист обладает знаниями и опытом работы с этой техникой.</p>
+        <p>Подводя итоги, хочется сказать: Сервисный центр Thermomix в Алматы - это не просто мастерская. Это команда энтузиастов, влюбленных в свое дело.</p>
+      </div>
+      <div class="action5">
+        <h2 class="action__title">Остались вопросы?</h2>
+        <div>Оставьте заявку и наш менеджер свяжется с вами в течение 3 минут, чтобы ответить на все интересующие вас вопросы</div>
+        <div class="action__contact">
+          <span>Екатерина<br>Мирошниченко</span>
+        </div>
+        <span class="action__link link_dashed popup-open">Позвоните нам</span>
+        <img class="action5__img" src="img/action-3.webp" alt="">
+      </div>
+    </section>
+
+    <section class="section section10" id="link4">
+      <h2 class="section__title">наши <span class="highlight">контакты</span></h2>
+      <div class="action6">
+        <span>Нужна консультация? <span class="link_dashed popup-open">Оставьте заявку</span> и мы свяжемся с вами в течение 3 минут.</span>
+        <button class="icon icon_30 circled button_arrow popup-open"></button>
+      </div>
+      <div class="contacts mobile-flex-col">
+        <div class="contact">
+          <div class="contact__title contact__title_location">
+            <span>Контакты Алматы</span>
+          </div>
+          <p>Кабанбай батыра, 260А (ул. Жамбыла - Ауэзова)</p>
+          <p>+7 (778) 021 11 73</p>
+          <p>+7 (727) 339 99 08</p>
+        </div>
+        <div class="contact">
+          <div class="contact__title contact__title_location">
+            <span>Контакты Астана</span>
+          </div>
+          <p>Кабанбай батыра 7/2 рядом с ЖК Радуга</p>
+          <p>+7 (778) 021 11 73</p>
+          <p>+7 (7172) 72 58 33</p>
+        </div>
+        <div class="contact" id="link1">
+          <div class="contact__title contact__title_time">
+            <span>График работы</span>
+          </div>
+          <div>Понедельник - Пятница:</div>
+          <div>с 10:00 - 19:00</div>
+          <div>Суббота - Воскресенье и праздники:</div>
+          <div>с 11:00 - 18:00</div>
+        </div>
+      </div>
+      <div class="map__select">
+        <input class="map__toggle" type="radio" name="map-option" id="map-1" data-latitude="43.245598" data-longitude="76.904207" checked>
+        <label for="map-1" class="map__option">Алматы</label>
+        <input class="map__toggle" type="radio" name="map-option" id="map-2" data-latitude="51.143738" data-longitude="71.415841">
+        <label for="map-2" class="map__option">Астана</label>
+      </div>
+      <div class="map" id="map"></div>
+    </section>
+  </main>
+
+  <dialog class="popup popup__action">
+    <img class="icon_30 circled popup__close_btn popup-close" src="img/plus.svg" alt="">
+    <h2 class="popup__title">оставьте заявку</h2>
+    <div class="popup__text">Заполните форму и наш менеджер перезвонит вам в течение 3 минут</div>
+    <form class="popup__form">
+      <label class="popup__field">
+        <img src="img/user.svg" alt="">
+        <input type="text" class="popup__input popup__input_name" placeholder="Как к вам обращаться?" pattern="[А-Яа-яA-Za-z]+" required>
+        <span class="popup__error">Поле «Имя» должно состоять из букв</span>
+      </label>
+      <label class="popup__field">
+        <img src="img/phone.svg" alt="">
+        <input type="tel" class="popup__input popup__input_tel" placeholder="+7 (___) ___-__-__" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}" required>
+      </label>
+      <button class="button button_black">Оставить заявку</button>
+      <label class="popup__agree">
+        <input type="checkbox" required>
+        <span>Согласие на обработку персональных данных</span>
+      </label>
+    </form>
+  </dialog>
+
+  <dialog class="popup popup__success">
+    <img class="icon_30 circled popup__close_btn popup-close" src="img/plus.svg" alt="">
+    <h2 class="popup__title">спасибо!</h2>
+    <div class="popup__text">Ваша заявка принята, мы перезвоним вам уже через 3 минуты</div>
+    <button class="button button_black popup-close">Закрыть</button>
+  </dialog>
+
+  <footer class="footer">
+    <div class="sitenav">
+      <div class="header__top">
+        <a class="sitenav__logo" href="index.html">
+          <img src="img/logo.svg" alt="">
+        </a>
+      </div>
+      <nav class="sitenav__links">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="link" href="#link1">График работы</a></li>
+          <li class="sitenav__item"><a class="link" href="#link2">Отзывы</a></li>
+          <li class="sitenav__item"><a class="link" href="#link3">Схема работы</a></li>
+          <li class="sitenav__item"><a class="link" href="#link4">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="sitenav__phone">
+        <div>
+          <div>+7 (778) 021 11 73</div>
+          <div class="link_accent popup-open">Заказать звонок</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__row mobile-flex-col">
+      <span class="footer__notice">Данный сайт носит исключительно информационный характер и материалы, размещенные на сайте, не являются публичной офертой</span>
+      <a class="link" href="#">Политика конфиденциальности</a>
+    </div>
+  </footer>
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=86cb0147-d5b1-4892-ac30-f7ce196228c8&load=package.standard&lang=ru_RU"></script>
+  <script src="js/main.js"></script>
+</body>
