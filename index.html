@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Thermomix</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css?v=1">
 </head>
 <body>
   <header class="header">
-    <div class="header__top mobile_only">
+    <div class="header__top desktop_hidden">
       <img class="icon icon_35 circled popup-open" src="img/phone.svg" alt="">
       <a class="sitenav__logo" href="index.html">
         <img src="img/logo.svg" alt="">
@@ -21,12 +21,12 @@
     <div class="header__overlay">
       <div class="header__wrapper sitenav">
         <div class="header__top">
-          <img class="icon icon_35 circled popup-open mobile_only" src="img/phone.svg" alt="">
+          <img class="icon icon_35 circled popup-open desktop_hidden" src="img/phone.svg" alt="">
           <a class="sitenav__logo" href="index.html">
             <img src="img/logo.svg" alt="">
           </a>
           <label for="mobile-menu-toggle">
-            <img class="icon icon_35 circled mobile_only" src="img/close.svg" alt="">
+            <img class="icon icon_35 circled desktop_hidden" src="img/close.svg" alt="">
           </label>
         </div>
         <nav class="sitenav__links">
@@ -40,7 +40,7 @@
         <div class="sitenav__phone">
           <div>
             <div>+7 (778) 021 11 73</div>
-            <div class="link_accent popup-open mobile_hidden">Заказать звонок</div>
+            <div class="link link_accent link_underline popup-open mobile_hidden">Заказать звонок</div>
           </div>
         </div>
       </div>
@@ -50,8 +50,7 @@
   <section class="section hero">
     <div class="hero__section_1">
       <h1 class="section__title hero__title">Сервисный центр <span class="highlight">THERMOMIX</span> в Алматы</h1>
-      <div class="section__subtitle">
-        <img class="icon mobile_hidden" src="img/subtitle_icon.svg" alt="">
+      <div class="section__row section__subtitle">
         <span>Ремонт и обслуживание техники от мастеров <b>с 10-летним опытом</b></span>
       </div>
       <div class="hero__action">
@@ -125,7 +124,7 @@
           <span>Thermomix VM 2000</span>
         </li>
       </ol>
-      <div class="equipment__show link_dashed mobile_only">Показать еще</div>
+      <div class="equipment__show link link_accent link_dashed desktop_hidden">Показать еще</div>
       <div class="action1 mobile-flex-col">
         <img class="action1__img mobile_hidden" src="img/otvertka.webp" alt="">
         <span class="action1__text1">Оставьте заявку на бесплатную диагностику вашей техники Thermomix</span>
@@ -150,29 +149,29 @@
 
     <section class="section section3" id="link3">
       <h2 class="section__title"><span class="highlight">схема</span> работы</h2>
-      <div class="scheme mobile-flex-col">
+      <div class="scheme">
         <div class="scheme__item">
-          <img class="scheme__img" src="img/scheme-1.webp" alt="">
+          <img class="scheme__img" src="img/scheme1.webp" alt="">
           <div class="scheme__title">Консультация</div>
           <div>Наш менеджер ответит на все ваши вопросы и примет заявку</div>
         </div>
         <div class="scheme__item">
-          <img class="scheme__img" src="img/scheme-2.webp" alt="">
+          <img class="scheme__img" src="img/scheme2.webp" alt="">
           <div class="scheme__title">Диагностика</div>
           <div>Осуществим диагностику за свой счёт, даже если вы откажетесь от ремонта</div>
         </div>
         <div class="scheme__item">
-          <img class="scheme__img" src="img/scheme-3.webp" alt="">
+          <img class="scheme__img" src="img/scheme3.webp" alt="">
           <div class="scheme__title">Согласование</div>
           <div>Персональный менеджер согласует с вами сроки и стоимость ремонта</div>
         </div>
         <div class="scheme__item">
-          <img class="scheme__img" src="img/scheme-4.webp" alt="">
+          <img class="scheme__img" src="img/scheme4.webp" alt="">
           <div class="scheme__title">Выдача</div>
           <div>Бесплатно доставим устройство к вам домой или вы можете забрать его сами</div>
         </div>
         <div class="scheme__item">
-          <img class="scheme__img" src="img/scheme-5.webp" alt="">
+          <img class="scheme__img" src="img/scheme5.webp" alt="">
           <div class="scheme__title">Оплата</div>
           <div>Оплата производиться после ремонта и проверки устройства</div>
         </div>
@@ -185,7 +184,7 @@
 
     <section class="section section4">
       <h2 class="section__title">наши преимущества</h2>
-      <div class="benefits mobile-flex-col">
+      <div class="benefits">
         <div class="benefits__item">
           <img class="benefits__img" src="img/benefits-1.webp" alt="">
           <div class="benefits__text">9 из 10 продуктов мы чиним за <b>1 день</b></div>
@@ -533,7 +532,7 @@
         <div class="action__contact">
           <span>Екатерина<br>Мирошниченко</span>
         </div>
-        <span class="action__link link_dashed popup-open">Позвоните нам</span>
+        <span class="link_dashed popup-open">Позвоните нам</span>
         <img class="action5__img" src="img/action-3.webp" alt="">
       </div>
     </section>
@@ -541,7 +540,7 @@
     <section class="section section10" id="link4">
       <h2 class="section__title">наши <span class="highlight">контакты</span></h2>
       <div class="action6">
-        <span>Нужна консультация? <span class="link_dashed popup-open">Оставьте заявку</span> и мы свяжемся с вами в течение 3 минут.</span>
+        <span>Нужна консультация? <span class="link link_accent link_dashed popup-open">Оставьте заявку</span> и мы свяжемся с вами в течение 3 минут.</span>
         <button class="icon icon_30 circled button_arrow popup-open"></button>
       </div>
       <div class="contacts mobile-flex-col">
@@ -628,7 +627,7 @@
       <div class="sitenav__phone">
         <div>
           <div>+7 (778) 021 11 73</div>
-          <div class="link_accent popup-open">Заказать звонок</div>
+          <div class="link link_accent link_underline popup-open">Заказать звонок</div>
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
 document.querySelector('.equipment__show')
     .addEventListener('click', (event) => {
-        document.querySelectorAll('.equipment .mobile_hidden')
+        document.querySelectorAll('.equipment__item')
             .forEach((el) => {
                 el.classList.remove('mobile_hidden');
+                el.classList.remove('desktop_hidden');
             });
         event.target.remove();
     });
@@ -40,13 +41,13 @@ document.querySelector('input[type=tel]')
 /*** countdown clock ***/
 
 let countdown = document.querySelector('.countdown__clock');
-let timeRemaining = 1 * 60 * 60;
+let time_remaining = 1 * 60 * 60;
 let countdown_interval = setInterval(updateTime, 1000);
 
 function updateTime() {
-    let hours = Math.floor(timeRemaining / (60 * 60));
-    let minutes = Math.floor(timeRemaining / 60 - hours * 60);
-    let seconds = timeRemaining % 60;
+    let hours = Math.floor(time_remaining / (60 * 60));
+    let minutes = Math.floor(time_remaining / 60 - hours * 60);
+    let seconds = time_remaining % 60;
 
     let digits = [
         Math.floor(hours / 10),
@@ -62,9 +63,9 @@ function updateTime() {
             digit.textContent = digits[i];
         });
 
-    timeRemaining--;
+    time_remaining--;
 
-    if (timeRemaining < 0) {
+    if (time_remaining < 0) {
         clearInterval(countdown_interval);
     }
 }
